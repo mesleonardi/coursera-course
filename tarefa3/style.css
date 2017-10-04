@@ -4,9 +4,26 @@ body  {
 }
 
 /*header*/
+.navbar-brand {
+  padding-top: 25px;
+  padding-left: 0px;
+  margin-left: 0px;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+
+  font-size: 30px;
+  color: #F9FBE7;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: .25;
+  width: 100%;
 
 
-h1 {
+}
+
+.navbar-brand {
   font-size: 38px;
   padding-left: 40px;
 }
@@ -15,6 +32,20 @@ h1 {
   background: #CDDC39;
   }
 
+#nav-list {
+  margin-top: 10px;
+  color: #F9FBE7
+}
+#nav-list a {
+  text-align: center;
+  color: #F9FBE7
+}
+#nav-list a:hover {
+  background: #CDDC39;
+}
+#nav-list a  {
+  font-size: 18px;
+}
 
 /*ourmenu*/
 h2 {
@@ -41,6 +72,30 @@ p {
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  
+}
 
+
+@media (max-width: 479px) {
+  /* Header */
+
+  .navbar-brand {
+  font-size: 38px;
+  padding-left: 0px;
+}
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 30px;
+  
+  }
+  /* End Header */
+  
+  
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
 }

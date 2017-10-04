@@ -11,34 +11,27 @@
 <header class="nav-header">
    <nav id="header-nav" class="navbar navbar-default">
     <div class="container">
-        <div class="navbar-header">
-          <h1>Food,LCC</h1>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+      <div class="navbar-header">
+        <div class="navbar-brand">
+          <h1>Food, LLC</h1>
+        </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
         </div><!--navbar-->
-      <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li class="text-center">
-              <a href="#chicken-div"><p class="item">Chicken</p></a>
-              <hr class="visible-xs">
-            </li>            
-            <li class="text-center beef-item">
-              <a href="#beef-div"><p class="item">Beef</p></a>
-              <hr class="visible-xs">
-            </li>
-            <li class="text-center sushi-item">
-              <a href="#sushi-div"><p class="item">Sushi</p></a>
-            </li>
-          </ul> 
+      <div id="collapsable-nav" class="navbar-collapse collapse in" aria-expanded="true" style>
+        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text"><a href="#chicken">Chicken</a></li>
+            <li class="text"><a href="#beef">Beef</a></li>
+            <li class="text"><a href="#sushi">Sushi</a></li>
+          </ul>
         </div><!--collapsable-nav--> 
-      </div><!--container-->
    </nav>
-  
   </header>
+
 <h2>Our Menu</h2>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 col-12">
@@ -54,6 +47,8 @@
       </div>
     </div>
   </div>
+</div> <!--navbar-header-->
+</div> <!--container-->
 <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
